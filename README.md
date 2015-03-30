@@ -8,6 +8,8 @@ Not convinced?  Have a look at the [demo slides](demo.pdf).
 ![Sample](http://i.imgur.com/wP4uGbS.png)
 
 
+This has been updated by Stephen Mayhew to have an [Illinois color theme](http://identitystandards.illinois.edu/graphicstandardsmanual/generalguidelines/colors.html).
+
 ### Installation
 
 To install the theme either run `make install` or copy the style files ending
@@ -16,6 +18,7 @@ and the section indicator are hardcoded into the theme. For the demo you need
 
 * XeLaTeX,
 * the [Fira Sans](https://github.com/mozilla/Fira) font,
+* AND [Fira Mono](http://www.carrois.com/fira-4-0/) font,
 * TikZ and
 * the Python package [Pygments](http://pygments.org/) that you can get with `pip
   install pygments`.
@@ -59,7 +62,7 @@ slide, this can be turned off at the package-level by passing the
 #### Commands
 
 The `\plain{title=[]}{body}` command sets a slide in plain dark colors
-which can be useful to focus attentation on a single image.
+which can be useful to focus attention on a single image.
 
 
 #### pgfplot styles
