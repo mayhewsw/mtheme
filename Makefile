@@ -1,6 +1,6 @@
-SRC = demo.tex
-PDF = demo.pdf
-AUX = demo.aux
+SRC = rdsm2015-presentation.tex
+PDF = rdsm2015-presentation.pdf
+AUX = rdsm2015-presentation.aux
 TEXC := xelatex
 TEXC_OPTS += -shell-escape
 TEXMFHOME = $(shell kpsewhich -var-value=TEXMFHOME)
@@ -18,7 +18,6 @@ $(PDF): beamerthemem.sty $(AUX) $(SRC)
 
 clean:
 	@rm -f $(PDF)
-	@git clean -xf
 
 install:
 	mkdir -p $(INSTALL_DIR)
